@@ -19,7 +19,11 @@ The animated preview below uses synthetic demo vault data.
 
 ## Install
 
-Cerebro Mycelium is available in Obsidian's community plugin directory.
+Cerebro Mycelium is available in Obsidian's community plugin directory:
+
+```text
+https://community.obsidian.md/plugins/cerebro-mycelium
+```
 
 1. Open `Settings -> Community plugins`.
 2. Search for `Cerebro Mycelium`.
