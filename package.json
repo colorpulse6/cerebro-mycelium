@@ -1,0 +1,35 @@
+{
+  "name": "cerebro-mycelium",
+  "version": "0.1.0",
+  "description": "Render an Obsidian vault as an animated 2D living fungal network.",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc -noEmit -skipLibCheck && esbuild main.ts --bundle --external:obsidian --external:electron --external:@codemirror/autocomplete --external:@codemirror/collab --external:@codemirror/commands --external:@codemirror/language --external:@codemirror/lint --external:@codemirror/search --external:@codemirror/state --external:@codemirror/view --external:@lezer/common --external:@lezer/highlight --external:@lezer/lr --format=cjs --target=es2018 --log-level=info --outfile=main.js --minify --banner:js=\"/* Cerebro Mycelium Obsidian plugin */\"",
+    "dev": "esbuild main.ts --bundle --external:obsidian --external:electron --external:@codemirror/autocomplete --external:@codemirror/collab --external:@codemirror/commands --external:@codemirror/language --external:@codemirror/lint --external:@codemirror/search --external:@codemirror/state --external:@codemirror/view --external:@lezer/common --external:@lezer/highlight --external:@lezer/lr --format=cjs --target=es2018 --log-level=info --outfile=main.js --sourcemap=inline --watch",
+    "test": "node --no-warnings --test test/*.test.mjs"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "graph",
+    "mycelium",
+    "network",
+    "vault"
+  ],
+  "author": "colorpulse6",
+  "homepage": "https://github.com/colorpulse6/cerebro-mycelium#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colorpulse6/cerebro-mycelium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colorpulse6/cerebro-mycelium/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "esbuild": "^0.28.0",
+    "obsidian": "^1.5.12",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+main.js
+.playwright-cli/
+*.map
+dist
+.DS_Store
+.env
+.env.*

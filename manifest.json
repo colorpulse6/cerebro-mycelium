@@ -1,0 +1,10 @@
+{
+  "id": "cerebro-mycelium",
+  "name": "Cerebro Mycelium",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Render your vault as an animated 2D living fungal network.",
+  "author": "colorpulse6",
+  "authorUrl": "https://github.com/colorpulse6",
+  "isDesktopOnly": false
+}
