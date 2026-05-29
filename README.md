@@ -2,6 +2,10 @@
 
 Cerebro Mycelium is an Obsidian community plugin that renders your vault as a 2D living fungal network. Markdown notes become soft kind-clusters, wikilinks become curved hyphae, recently edited notes glow as fruiting bodies, and clicking a node sends a light cascade through its nearby graph.
 
+The animated preview below uses synthetic demo vault data.
+
+![Cerebro Mycelium vault graph rendered as a living fungal network](assets/cerebro-mycelium.gif)
+
 ## Features
 
 - Native Obsidian custom view, no separate app required.
@@ -13,7 +17,16 @@ Cerebro Mycelium is an Obsidian community plugin that renders your vault as a 2D
 - Drag notes to pin them into persistent positions, with a reset command when you want to return to automatic layout.
 - Settings for palette, recency window, spore density, cluster haze, decorative micro-leaves, and click behavior.
 
-## Local Installation
+## Install
+
+Cerebro Mycelium is available in Obsidian's community plugin directory.
+
+1. Open `Settings -> Community plugins`.
+2. Search for `Cerebro Mycelium`.
+3. Install and enable the plugin.
+4. Run **Cerebro Mycelium: Open mycelium** from the command palette.
+
+## Manual Installation
 
 1. Run `npm install`.
 2. Run `npm run build`.
@@ -32,6 +45,7 @@ Cerebro Mycelium is an Obsidian community plugin that renders your vault as a 2D
 npm install
 npm test
 npm run build
+npm run demo:gif
 ```
 
 The plugin does not make network requests and does not modify notes. It enumerates markdown files so it can build the vault graph locally.
