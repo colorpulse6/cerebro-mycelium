@@ -53,3 +53,13 @@ npm run demo:gif
 ```
 
 The plugin does not make network requests and does not modify notes. It enumerates markdown files so it can build the vault graph locally.
+
+## Author
+
+Built by [Nichalas Barnes](https://nichalasbarnes.com/), a software engineer and composer. More work at [nichalasbarnes.com/projects](https://nichalasbarnes.com/projects/).
+
+You might also like [Brain Atlas](https://github.com/colorpulse6/brain-atlas), which renders your vault as an animated 3D anatomical brain.
+
+## License
+
+MIT
